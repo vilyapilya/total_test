@@ -2,11 +2,11 @@
 // Total.js start script
 // https://www.totaljs.com
 // ===================================================
-console.log(process.env.port);
+console.log(process.cwd());
 console.log("EEEEEEE");
 const options = {};
-options.ip = 'auto';
-options.port = process.env.port;
+options.ip = '52.41.36.82',
+// options.port = process.env.port;
 options.directory = process.cwd();
 
 // options.ip = '127.0.0.1';
