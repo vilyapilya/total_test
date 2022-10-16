@@ -2,12 +2,11 @@
 // Total.js start script
 // https://www.totaljs.com
 // ===================================================
-
-const options = {
-  // 'ip': 'test-ground.onrender.com',
-  // 'unixsocket777': true
-  'livereload': 'https://test-ground.onrender.com/'
-};
+console.log(process.env);
+const options = {};
+options.ip = 'auto';
+options.port = process.env.port;
+options.directory = process.cwd();
 
 // options.ip = '127.0.0.1';
 // options.port = parseInt(process.argv[2]);
