@@ -4,7 +4,7 @@
 // ===================================================
 
 const options = {
-  'ip': 'https://test-ground.onrender.com/'
+  'ip': 'test-ground.onrender.com'
 };
 
 // options.ip = '127.0.0.1';
