@@ -2,7 +2,8 @@
 // Total.js start script
 // https://www.totaljs.com
 // ===================================================
-console.log(process.env);
+console.log(process.env.port);
+console.log("EEEEEEE");
 const options = {};
 options.ip = 'auto';
 options.port = process.env.port;
