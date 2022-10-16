@@ -1,8 +1,8 @@
 {
-	"pid": 33308,
-	"date": "2022-10-16T04:55:10.330Z",
+	"pid": 35660,
+	"date": "2022-10-16T05:34:05.577Z",
 	"port": 8000,
-	"ip": "0.0.0.0",
+	"ip": "128.0.0.1",
 	"stats": [
 		{
 			"id": null,
@@ -12,12 +12,12 @@
 				"build": 4068,
 				"app": "1.0.0"
 			},
-			"pid": 33308,
+			"pid": 35660,
 			"thread": "",
 			"mode": "debug",
 			"overload": 0,
-			"date": "2022-10-16T04:55:10.330Z",
-			"memory": 9.76,
+			"date": "2022-10-16T05:34:05.577Z",
+			"memory": 9.79,
 			"rm": 0,
 			"fm": 0,
 			"wm": 0,
@@ -35,12 +35,13 @@
 			"requests": 0,
 			"pending": 0,
 			"external": 0,
-			"errors": 0,
+			"errors": 1,
 			"timeouts": 0,
 			"online": 0,
 			"uptime": 1,
 			"download": 0,
 			"upload": 0,
+			"lasterror": "2022-10-16T05:34:05.577Z Error: listen EADDRNOTAVAIL: address not available 128.0.0.1:8000\n    at Server.setupListenHandle [as _listen2] (node:net:1446:21)\n    at listenInCluster (node:net:1511:12)\n    at doListen (node:net:1660:7)\n    at processTicksAndRejections (node:internal/process/task_queues:84:21)",
 			"status": []
 		}
 	]

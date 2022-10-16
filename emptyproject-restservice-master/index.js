@@ -3,7 +3,9 @@
 // https://www.totaljs.com
 // ===================================================
 
-const options = {};
+const options = {
+  'ip': 'https://test-ground.onrender.com/'
+};
 
 // options.ip = '127.0.0.1';
 // options.port = parseInt(process.argv[2]);
