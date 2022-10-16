@@ -4,7 +4,9 @@
 // ===================================================
 
 const options = {
-  'ip': 'test-ground.onrender.com'
+  // 'ip': 'test-ground.onrender.com',
+  // 'unixsocket777': true
+  'livereload': 'https://test-ground.onrender.com/'
 };
 
 // options.ip = '127.0.0.1';
