@@ -1,0 +1,12 @@
+{
+  "name": "test",
+  "version": "0.0.0",
+  "private": "true",
+  "scripts": {
+      "start": "node index.js",
+      "build": "git add -A && git commit --m 'add' && git push origin master && npm run restart"
+  },
+  "dependencies": {
+    "total4": "^0.0.68"
+  }
+}
