@@ -5,8 +5,8 @@
 console.log(process.env);
 console.log("EEEEEEE");
 const options = {};
-options.ip = '52.41.36.82',
-// options.port = process.env.port;
+options.ip = 'test-ground.onrender.com'
+options.port = 3001;
 options.directory = process.cwd();
 
 // options.ip = '127.0.0.1';
