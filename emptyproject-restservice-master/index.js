@@ -2,7 +2,7 @@
 // Total.js start script
 // https://www.totaljs.com
 // ===================================================
-console.log(process.cwd());
+console.log(process.env);
 console.log("EEEEEEE");
 const options = {};
 options.ip = '52.41.36.82',
